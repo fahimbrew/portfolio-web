@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: bisque;
+    background-color: rgb(183, 171, 156);
     height: 80px;
 }
 
@@ -35,17 +35,20 @@ header img {
     /* text-decoration: none; */
     display: inline-block;
     padding-top: 25px;
+    /* padding-right: 25px; */
+    margin-right: 40px;
 }
 
 .nav-container ul li a {
     text-decoration: none;
     position: sticky;
     /* text-align: right; */
-    color: red;
+    color: rgb(58, 57, 57);
     position: relative;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     font-weight: 900;
     right: 80px;
+    padding: 0 4px 6px 4px;
 
 }
 
@@ -56,4 +59,9 @@ header img {
 .nav-container ul li a:hover {
     color: azure;
     transition: 0.25s ease-in;
+}
+
+.active {
+    /* background-color: rgb(235, 196, 255); */
+    border-bottom: 1px solid black;
 }
