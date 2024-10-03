@@ -66,3 +66,27 @@ header img {
     /* background-color: rgb(235, 196, 255); */
     border-bottom: 1px solid beige;
 }
+
+/* containers */
+.container {
+    font-size: 20px;
+    color: white;
+}
+
+.box1 {
+    background-color: transparent;
+    height: 200px;
+    border: 1px solid tan;
+    margin: 5% 50% 30% 2%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(205, 196, 184);
+    padding: 40px;
+    font-weight: 900;
+}
+
+.box1 h3 {
+    text-decoration: underline;
+    color: rgb(112, 14, 14);
+    text-align: justify;
+}
