@@ -4,6 +4,13 @@ html {
     width: 100%;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
 /* Header styles */
 header {
     background-color: bisque;
@@ -14,4 +21,39 @@ header {
 header img {
     height: 50px;
     /* width: 25px; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* navigation styles */
+.nav-container {
+    float: right;
+}
+
+.nav-container ul li {
+    list-style-type: none;
+    /* text-decoration: none; */
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    position: sticky;
+    /* text-align: right; */
+    color: red;
+    position: relative;
+    padding-right: 40px;
+    font-weight: 900;
+    right: 80px;
+
+}
+
+.nav-container ul {
+    margin: 0;
+}
+
+.nav-container ul li a:hover {
+    color: azure;
+    transition: 0.25s ease-in;
 }
