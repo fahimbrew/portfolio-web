@@ -1,0 +1,17 @@
+/* html styles */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: bisque;
+    height: 80px;
+}
+
+/* logo style */
+header img {
+    height: 50px;
+    /* width: 25px; */
+}
